@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio - Bog'lanish</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS order: shared → images → page-specific -->
+    <link rel="stylesheet" href="./CSS/shared.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!--Header section-->
+    <header class="main-header">
+      <div class="container">
+        <div class="MK">
+          <a href="Portfolio.html">
+            <img src="./Images/download.png" alt="logo" class="logo">
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul class="main-navigation__items">
+            <li class="main-navigation__item active"><a href="./Portfolio.html">Asosiy</a></li>
+            <li class="main-navigation__item"><a href="#">Men haqimda</a></li>
+            <li class="main-navigation__item"><a href="#">Xizmatlar</a></li>
+            <li class="main-navigation__item"><a href="#">Mijozlar</a></li>
+            <li class="main-navigation__item"><a href="#">Portfolio</a></li>
+            <li class="main-navigation__item"><a href="#">Blogim</a></li>
+            <li class="main-navigation__item"><a href="#">Hamkorlar</a></li>
+            <li class="main-navigation__item"><a href="./contact.html">Bog'lanish</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--/Header section-->
+
+    <div class="container">
+      <section class="contact">
+        <div class="section-title">Men bilan bog'lanish</div>
+        <form action="/server.php" method="get">
+          <textarea rows="10" placeholder="Xabringizni qoldiring" name="message" class="contact__message"></textarea>
+          <div class="half-row contact__firstname">
+            <input type="text" placeholder="Ismingizni kiriting" name="firstname">
+          </div>
+          <div class="half-row contact__email">
+            <input type="email" placeholder="Emailingizni kiriting" name="email">
+          </div>
+          <input type="text" placeholder="Xat mazmuni" name="subject">
+          <button type="submit" class="button contact__send">Xabarni jo'natish</button>
+        </form>
+      </section>
+    </div>
+
+    <!--Footer section-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__logo">
+          <img src="./Images/download.png" alt="Logo" class="logo">
+        </div>
+        <nav class="footer__navigation">
+          <ul class="footer__navigation__items">
+            <li class="footer__navigation__item"><a href="./Portfolio.html">Asosiy</a></li>
+            <li class="footer__navigation__item"><a href="./about.html">Men haqimda</a></li>
+            <li class="footer__navigation__item"><a href="./services.html">Xizmatlar</a></li>
+            <li class="footer__navigation__item"><a href="#">Mijozlar</a></li>
+            <li class="footer__navigation__item"><a href="./portfolio.html">Portfolio</a></li>
+            <li class="footer__navigation__item"><a href="./blog.html">Blogim</a></li>
+            <li class="footer__navigation__item"><a href="#">Hamkorlar</a></li>
+          </ul>
+        </nav>
+        <div class="footer__socials">
+          <a href="#" class="footer__social"><i class="fab fa-telegram"></i></a>
+          <a href="#" class="footer__social"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="footer__copyright">
+          <p>&copy; 2025 Islom Abdizoirov. Barcha huquqlar himoyalangan.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
