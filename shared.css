@@ -1,5 +1,6 @@
 :root {
   /* Brand */
+  --brand: #1345e6;
   --brand-2: hsl(324, 2%, 58%);
   --accent: hwb(180 4% 64%);
 
@@ -23,127 +24,6 @@
   --space-5: 2rem;
   --space-6: 3rem;
 }
-@font-face {
-    font-family: 'Lato';
-    src: url('/Loyiha_1/Lato/Lato-Bold.eot');
-    src: url('/Loyiha_1/Lato/Lato-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-Bold.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-Bold.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('/Loyiha_1/Lato/Lato-BoldItalic.eot');
-    src: url('/Loyiha_1/Lato/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-BoldItalic.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-BoldItalic.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('/Loyiha_1/Lato/Lato-LightItalic.eot');
-    src: url('/Loyiha_1/Lato/Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-LightItalic.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-LightItalic.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato Hairline';
-    src: url('/Loyiha_1/Lato/Lato-HairlineItalic.eot');
-    src: url('/Loyiha_1/Lato/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-HairlineItalic.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-HairlineItalic.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-HairlineItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('/Loyiha_1/Lato/Lato-Regular.eot');
-    src: url('/Loyiha_1/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-Regular.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-Regular.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato Hairline';
-    src: url('/Loyiha_1/Lato/Lato-Hairline.eot');
-    src: url('/Loyiha_1/Lato/Lato-Hairline.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-Hairline.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-Hairline.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-Hairline.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('/Loyiha_1/Lato/Lato-Light.eot');
-    src: url('/Loyiha_1/Lato/Lato-Light.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-Light.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-Light.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('/Loyiha_1/Lato/Lato-Italic.eot');
-    src: url('/Loyiha_1/Lato/Lato-Italic.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-Italic.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-Italic.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('/Loyiha_1/Lato/Lato-Black.eot');
-    src: url('/Loyiha_1/Lato/Lato-Black.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-Black.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-Black.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('/Loyiha_1/Lato/Lato-BlackItalic.eot');
-    src: url('/Loyiha_1/Lato/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('/Loyiha_1/Lato/Lato-BlackItalic.woff2') format('woff2'),
-        url('/Loyiha_1/Lato/Lato-BlackItalic.woff') format('woff'),
-        url('/Loyiha_1/Lato/Lato-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-
 /* ---- Reset & Base ---- */
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -153,6 +33,7 @@ body {
   color: var(--ink);
   background: linear-gradient(120deg, #e0f2fe 0%, #f8fafc 100%);
   line-height: 1.6;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 img { max-width: 100%; display: block; }
 a { color: var(--brand); text-decoration: none; transition: all 0.5s; }
